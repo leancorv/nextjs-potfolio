@@ -6,7 +6,21 @@ export default function Home() {
       <Head>
         <title>Leandro's Portfolio</title>
       </Head>
-      <h1 className='text-blue-800'>Let's build an awesome portfolio</h1>
+
+      {/* Header */}
+
+      {/* Hero */}
+
+      {/* About */}
+
+      {/* Experience */}
+
+      {/* Skills */}
+
+      {/* Proyects */}
+
+      {/* Contact Me */}
+
     </>
   )
 }
