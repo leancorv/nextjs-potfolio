@@ -40,22 +40,22 @@ const Home = ({pageInfo, experiences, skills, projects, socials }: Props)=> {
 
       {/* About */}
       <section id='about' className='snap-center'>
-        <About />
+        <About pageInfo={pageInfo}/>
       </section>
 
       {/* Experience */}
       <section id="experience "className='snap-center'>
-        <WorkExperience />
+        <WorkExperience experiences={experiences}/>
       </section>
 
       {/* Skills */}
       <section id="skills" className='snap-start'>
-        <Skills />
+        <Skills skills={skills}/>
       </section>
 
       {/* Projects */}
       <section id="projects" className='snap-start'>
-        <Projects />
+        <Projects projects={projects}/>
       </section>
       {/* Contact Me */}
       <section id="contact" className='snap-start'>
